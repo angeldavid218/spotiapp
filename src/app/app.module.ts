@@ -13,6 +13,8 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 
 import { ROUTES } from './app.routes';
 import { VerifyimagePipe } from './pipes/verifyimage.pipe';
+import { CardsComponent } from './components/cards/cards.component';
+import { LoadingComponent } from './components/shared/loading/loading.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { VerifyimagePipe } from './pipes/verifyimage.pipe';
     SearchComponent,
     ArtistaComponent,
     NavbarComponent,
-    VerifyimagePipe
+    VerifyimagePipe,
+    CardsComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,
